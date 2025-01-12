@@ -1,4 +1,5 @@
-# challenge-alurageek 
+# challenge-alurageek
+
 ## Descripción
 Un pagina web simple con un diseño responsivo y dinámico. Muestra productos geek como si fuera un ecomerce, permite hacer operaciones CRUD interactuando con la base de datos.
 
@@ -13,4 +14,4 @@ Próximamente
 
 3) Ejecutar el servidor ```npx json-server --watch db.json --port 3000```
 
-4) Abrir el archivo index.html en el navegador.
+4) Abrir el archivo ```index.html``` en el navegador.
