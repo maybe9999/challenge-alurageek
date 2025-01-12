@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  },
+  "name": "challenge-alurageek",
+  "version": "1.0.0",
+  "description": "Un proyecto ecomerc-e orientado en un front-end sencillo que hace operaciones CRUD con una Base de Datos.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maybe9999/challenge-alurageek.git"
+  },
+  "author": "maybe9999 (Matias Da Silva)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maybe9999/challenge-alurageek/issues"
+  },
+  "homepage": "https://github.com/maybe9999/challenge-alurageek#readme"
+}
