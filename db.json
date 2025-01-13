@@ -37,16 +37,10 @@
       "img": "./assets/GameBoyClassic.png"
     },
     {
-      "id": "2333",
-      "name": "asd",
-      "price": "asd",
-      "img": "asd"
-    },
-    {
-      "id": "2333",
-      "name": "hhh",
-      "price": "hh",
-      "img": "hhh"
+      "id": 6,
+      "name": "",
+      "price": "",
+      "img": ""
     }
   ]
 }

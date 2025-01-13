@@ -1,6 +1,6 @@
 import { connectApi } from "./connectApi.js"
 
-const product__list = document.querySelector(".product__list")
+const product__list = document.querySelector(".product__list");
 
 function cardFormat(id, name, price, img){
     let card = document.createElement("li");
@@ -15,13 +15,20 @@ function cardFormat(id, name, price, img){
     return card
 }
 
-async function listProducts(){
-    const products = await connectApi.getProducts()
-
-    products.forEach(element => {
-        product__list.appendChild(cardFormat(element.id, element.name, element.price, element.img))
+function listProducts(){
+    connectApi.getProducts()
+    .then((products) => {
+        products.forEach(element => {
+            product__list.appendChild(cardFormat(element.id, element.name, element.price, element.img))
+        });
+        import('./eliminarProducto.js')
+    })
+    .catch((error) => {
+        console.error("Error al obtener los productos:", error);
     });
 }
+
+
 
 listProducts()
 
